@@ -1,0 +1,106 @@
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            padding: 20px;
+             background-image: url('https://media.istockphoto.com/id/863469700/photo/abstract-financial-chart-with-graph-in-double-exposure-style-on-white-color-background.jpg?s=612x612&w=0&k=20&c=I6_lrASNFSs7D54ydTQCxOjxyiB2Mlih_U-xAsgREpI=');
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        /*.container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }*/
+
+        
+
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #0d2366;    
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+        }
+        h4{
+            text-align: center;
+        }
+            h5 {
+                text-align: right;
+                color: brown;
+                font-size: large;
+            }
+        }
+
+          ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+
+        }
+        .grow{
+            color: green;
+        }
+        .price {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+            color: #007bff;
+        }
+      
+
+        #price-details{
+            background-color: #defffc;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+          @media screen and (max-width: 767px) {
+            /* Styles for phones */
+            .container {
+                width: 90%;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            /* Styles for tablets */
+            .container {
+                width: 70%;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            /* Styles for desktops */
+            .container {
+                width: 60%;
+            }
+        }
+
+        p{
+color: green;
+        }
